@@ -104,6 +104,7 @@
     }
     
     //Actualizar valor saldo creditos
+    //Prueba git
     if($_SERVER['REQUEST_METHOD']=='PUT'){
         if (isset($_GET['saldo'])){
             $sql = "SELECT saldo FROM creditos WHERE n_credito=:n_credito";   
